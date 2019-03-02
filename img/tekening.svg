@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="tekening.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4576">
+      <rect
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="rect4578"
+         width="209.95967"
+         height="224.89583"
+         x="4.1018239e-08"
+         y="26.015457" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.62"
+     inkscape:cx="176.75663"
+     inkscape:cy="554.62373"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:condensed;font-size:7.99533367px;line-height:1.25;font-family:'Barlow Condensed';-inkscape-font-specification:'Barlow Condensed, Light Condensed';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.55026455;stroke:none;stroke-width:0.26458332"
+       x="2.9304993"
+       y="35.670742"
+       id="text817"
+       clip-path="url(#clipPath4576)"
+       transform="translate(0,-1.2802419)"><tspan
+         sodipodi:role="line"
+         id="tspan815"
+         x="2.9304993"
+         y="35.670742"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332">buttons = document.getElementsByClassName('button');</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="45.664909"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan819">var arrShow = [...buttons];</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="55.659077"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan821">var displayInput = document.getElementsByClassName('display-input')[0];</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="65.653244"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan823">var displayOutput = document.getElementsByClassName('display-output')[0];</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="75.647408"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan825">var reset = document.getElementsByClassName('reset')[0];</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="85.641579"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan827">var equals = document.getElementsByClassName('equals')[0];</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="95.635742"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan829"></tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="105.62991"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan831">arrShow.forEach(function (element) {   </tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="115.62408"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan833">    element.addEventListener(&quot;click&quot;, showInput);</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="125.61825"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan835">    function showInput() {</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="135.61241"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan837">        displayInput.innerHTML += element.innerHTML;  </tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="145.60658"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan839">    }</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="155.60075"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan841">    reset.addEventListener('click', makeEmpty);</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="165.59491"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan843">    function makeEmpty() {</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="175.58908"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan845">        displayInput.innerHTML = null;</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="185.58325"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan847">        displayOutput.innerHTML = null;</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="195.57741"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan849">    }</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="205.57158"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan851">    equals.addEventListener('click', calculate);</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="215.56575"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan853">    function calculate(){</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="225.55992"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan855">        displayOutput.innerHTML = eval(displayInput.innerHTML);</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="235.55408"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan857">    }</tspan><tspan
+         sodipodi:role="line"
+         x="2.9304993"
+         y="245.54825"
+         style="fill:#000000;fill-opacity:0.55026455;stroke-width:0.26458332"
+         id="tspan859">});</tspan></text>
+  </g>
+</svg>
